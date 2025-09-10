@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - C++ Language History</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            font-size: 20px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed, #2193b0);
+            color: #fefefe;
+        }
+        header {
+            background: linear-gradient(90deg, #ff512f, #dd2476, #24c6dc, #514a9d);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+            border-bottom: 5px solid rgba(255,255,255,0.3);
+            animation: headerGlow 6s infinite alternate;
+        }
+        @keyframes headerGlow {
+            0% { box-shadow: 0 0 15px #ff512f; }
+            25% { box-shadow: 0 0 15px #dd2476; }
+            50% { box-shadow: 0 0 15px #24c6dc; }
+            75% { box-shadow: 0 0 15px #514a9d; }
+            100% { box-shadow: 0 0 15px #ff512f; }
+        }
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: yellow;
+            transform: scale(1.1);
+        }
+        .lang-menu {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px; 
+            text-align: center; 
+            overflow-x: auto; 
+            white-space: nowrap;
+        }
+        .lang-menu a {
+            color: #f1f1f1; 
+            margin: 0 10px; 
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .lang-menu a:hover {
+            color: yellow;
+        }
+        section { 
+            padding: 20px; 
+            background: rgba(0, 0, 0, 0.5); 
+            border-radius: 12px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+        }
+        h1, h2, h3 {
+            color: #ffe066;
+        }
+        footer { 
+            background: linear-gradient(90deg, #11998e, #38ef7d);
+            color: white; 
+            text-align: center; 
+            padding: 10px; 
+            font-size: 14px;
+        }
+        button { 
+            background-color: #ff7e5f; 
+            color: white; 
+            padding: 8px 15px; 
+            border: none; 
+            cursor: pointer; 
+            border-radius: 6px;
+        }
+        button:hover { background-color: #feb47b; }
+        img { max-width: 100%; height: auto; border-radius: 10px; }
+        blockquote {
+            font-style: italic;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-left: 5px solid yellow;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo" width="100">
+        <h1>Legends of Code – The Brilliant Minds Behind Every Programming Language</h1>
+        <nav>
+            <a href="Legends.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="article.html">Articles</a>
+        </nav>
+    </header>
+
+    <div class="lang-menu">
+        <a href="Legends.html">Python</a>
+        <a href="java.html">Java</a>
+        <a href="c.html">C</a>
+        <a href="cpp.html">C++</a>
+        <a href="csharp.html">C#</a>
+        <a href="javascript.html">JavaScript</a>
+        <a href="php.html">PHP</a>
+        <a href="ruby.html">Ruby</a>
+        <a href="swift.html">Swift</a>
+        <a href="kotlin.html">Kotlin</a>
+        <a href="go.html">Go</a>
+        <a href="rust.html">Rust</a>
+        <a href="typescript.html">TypeScript</a>
+        <a href="perl.html">Perl</a>
+        <a href="scala.html">Scala</a>
+        <a href="r.html">R</a>
+        <a href="matlab.html">MATLAB</a>
+        <a href="lua.html">Lua</a>
+        <a href="objectivec.html">Objective-C</a>
+        <a href="assembly.html">Assembly</a>
+    </div>
+
+    <section>
+        <h1><strong>4. C++ :</strong> The language that brought Object-Oriented Programming to the world</h1>
+        <img src="cpp.png" alt="C++" width="200">
+        <h2>The First Inventor of C++</h2>
+        <p><strong>C++</strong> is one of the most widely used programming languages, created as an extension of C. It was developed in <mark>1979</mark> by <em>
+            <img src=bjarne.png alt="Bjarne Stroustrup" width="600"> 
+            <a href="https://en.wikipedia.org/wiki/Bjarne_Stroustrup">Bjarne Stroustrup</a></em>.
+        </p>
+        <p>
+            1. Bjarne Stroustrup is the <strong>creator of C++</strong>.<br>
+            2. Born on <strong>30 December 1950</strong> in Aarhus, Denmark.<br>
+            3. Developed C++ at Bell Labs.<br>
+            4. Initially called “C with Classes”.<br>
+            5. Introduced <strong>Object-Oriented Programming</strong> to C.<br>
+            6. First official version released in <strong>1985</strong>.<br>
+            7. Used in operating systems, games, and compilers.<br>
+            8. Inspired modern languages like Java and C#.<br>
+            9. Received the <strong>Charles Stark Draper Prize</strong> in 2018.<br>
+            10. Celebrated as a legend of programming.<br>
+        </p>
+
+        <article>
+            <h2>James Gosling – Influenced by C++</h2>
+            <img src=jamesCpp.png alt="James Gosling" width="600"> 
+            <a href="https://en.wikipedia.org/wiki/James_Gosling">James Gosling</a>
+            <p>
+                1. Creator of the Java programming language.<br>
+                2. Inspired heavily by C++ concepts.<br>
+                3. Added automatic memory management to improve safety.<br>
+                4. Worked at Sun Microsystems.<br>
+                5. His work revolutionized cross-platform software.<br>
+                6. Designed Java to be simpler than C++.<br>
+                7. Known as the “Father of Java”.<br>
+                8. Java later became one of the most popular languages.<br>
+                9. His work is seen as a continuation of Stroustrup’s legacy.<br>
+                10. Honored as a pioneer in computing.<br>
+            </p>
+        </article>
+
+        <article>
+            <h2>Herb Sutter – Modern Advocate of C++</h2>
+            <img src=herb.png alt="Herb Sutter" width="500">
+            <a href="https://en.wikipedia.org/wiki/Herb_Sutter">Herb Sutter</a>
+            <p>
+                1. Famous C++ expert and standards committee member.<br>
+                2. Helped shape modern versions of C++.<br>
+                3. Author of books like <em>Exceptional C++</em>.<br>
+                4. Promotes safe and efficient coding practices.<br>
+                5. Key figure in C++11, C++14, C++17, and C++20.<br>
+                6. Known for simplifying complex concepts.<br>
+                7. Advocates modern C++ in real-world programming.<br>
+                8. Popular international speaker on C++.<br>
+                9. Helps push C++ towards the future.<br>
+                10. Respected leader in the C++ community.<br>
+            </p>
+        </article>
+
+        <blockquote>"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows your whole leg off." – Bjarne Stroustrup</blockquote>
+        <button onclick="alert('Thank you for exploring C++!')">Click Me</button>
+        <hr>
+        <h3>Key Features:</h3>
+        <ul>
+            <li>Object-Oriented Programming</li>
+            <li>High Performance and Flexibility</li>
+            <li>Used in Games, OS, and Compilers</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 C++ Language History</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript History</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: linear-gradient(135deg, #ffecd2, #fcb69f, #ff9a9e, #fad0c4); 
+      margin: 0; 
+      padding: 0; 
+      font-size: 20px;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #ff416c, #ff4b2b, #ff6a00, #ffcc00);
+      color: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      border-bottom: 5px solid rgba(255,255,255,0.3);
+      animation: headerGlow 8s infinite alternate;
+    }
+    @keyframes headerGlow {
+      0% { box-shadow: 0 0 15px #ff416c; }
+      25% { box-shadow: 0 0 15px #ff4b2b; }
+      50% { box-shadow: 0 0 15px #ff6a00; }
+      75% { box-shadow: 0 0 15px #ffcc00; }
+      100% { box-shadow: 0 0 15px #ff416c; }
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: yellow;
+      transform: scale(1.1);
+    }
+    .lang-menu {
+      background-color: rgba(0,0,0,0.7); 
+      padding: 10px; 
+      text-align: center; 
+      overflow-x: auto; 
+      white-space: nowrap;
+    }
+    .lang-menu a {
+      color: #f1f1f1; 
+      margin: 0 10px; 
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .lang-menu a:hover {
+      color: yellow;
+    }
+    section { 
+      padding: 20px; 
+      background: rgba(0, 0, 0, 0.65); 
+      border-radius: 12px;
+      margin: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    h1, h2, h3 {
+      color: #ffe066;
+    }
+    footer { 
+      background: linear-gradient(90deg, #ff512f, #dd2476);
+      color: white; 
+      text-align: center; 
+      padding: 10px; 
+      font-size: 14px;
+    }
+    button { 
+      background-color: #ff7e5f; 
+      color: white; 
+      padding: 8px 15px; 
+      border: none; 
+      cursor: pointer; 
+      border-radius: 6px;
+    }
+    button:hover { background-color: #feb47b; }
+    img { max-width: 100%; height: auto; border-radius: 10px; }
+    blockquote {
+      font-style: italic;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 15px;
+      border-left: 5px solid yellow;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="100">
+    <h1>Legends of Code – JavaScript: The Language of the Web</h1>
+    <nav>
+      <a href="Legends.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="article.html">Articles</a>
+    </nav>
+  </header>
+
+  <div class="lang-menu">
+    <a href="Legends.html">Python</a>
+    <a href="java.html">Java</a>
+    <a href="c.html">C</a>
+    <a href="cpp.html">C++</a>
+    <a href="csharp.html">C#</a>
+    <a href="javascript.html">JavaScript</a>
+    <a href="php.html">PHP</a>
+    <a href="ruby.html">Ruby</a>
+    <a href="swift.html">Swift</a>
+    <a href="kotlin.html">Kotlin</a>
+    <a href="go.html">Go</a>
+    <a href="rust.html">Rust</a>
+    <a href="typescript.html">TypeScript</a>
+    <a href="perl.html">Perl</a>
+    <a href="scala.html">Scala</a>
+    <a href="r.html">R</a>
+    <a href="matlab.html">MATLAB</a>
+    <a href="lua.html">Lua</a>
+    <a href="objectivec.html">Objective-C</a>
+    <a href="assembly.html">Assembly</a>
+  </div>
+
+  <section>
+    <h1><strong>3. JavaScript :</strong> The Language of the Web</h1>
+    <img src="javascript.png" alt="JavaScript" width="200">
+    <h2>The Creator of JavaScript</h2>
+    <p><strong>JavaScript</strong> was created in <mark>1995</mark> by 
+      <em><img src="brendan.png" alt="Brendan Eich" width="400"> 
+      <a href="https://en.wikipedia.org/wiki/Brendan_Eich">Brendan Eich</a></em>.
+    </p>
+    <p>
+      1. Created JavaScript in just <strong>10 days</strong> at Netscape.<br>
+      2. Originally called <strong>Mocha</strong>, then <strong>LiveScript</strong>.<br>
+      3. Renamed to <strong>JavaScript</strong> for marketing.<br>
+      4. Became the first true <strong>client-side scripting language</strong>.<br>
+      5. Designed to make web pages <strong>dynamic & interactive</strong>.<br>
+      6. Standardized by <strong>ECMAScript</strong> in 1997.<br>
+      7. Now used for <strong>front-end, back-end, mobile, and desktop apps</strong>.<br>
+      8. Powers modern frameworks like <strong>React, Angular, Vue</strong>.<br>
+      9. Most popular programming language of the web.<br>
+      10. Still evolving with ES6+ features.<br>
+    </p>
+
+    <article>
+      <h2>The Impact of JavaScript</h2>
+      <img src="webdev.png" alt="Web Development" width="300"> 
+      <p>
+        1. JavaScript revolutionized how websites work.<br>
+        2. Enabled interactive buttons, forms, and animations.<br>
+        3. Gave birth to <strong>AJAX</strong> and dynamic content.<br>
+        4. Backbone of modern single-page applications (SPAs).<br>
+        5. Combined with HTML and CSS, it forms the core web trio.<br>
+        6. Its ecosystem has millions of libraries (NPM).<br>
+        7. Developers can build both <strong>frontend & backend</strong> using Node.js.<br>
+        8. Supported by all major browsers.<br>
+        9. Integral in mobile apps through frameworks.<br>
+        10. Considered the "language of the Internet age".<br>
+      </p>
+    </article>
+
+    <blockquote>"JavaScript is the duct tape of the Internet."</blockquote>
+    <button onclick="alert('You just clicked JavaScript!')">Click Me</button>
+    <hr>
+    <h3>Key Features:</h3>
+    <ul>
+      <li>Lightweight and Fast</li>
+      <li>Event-Driven and Interactive</li>
+      <li>Works Everywhere (Browsers & Servers)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JavaScript History</p>
+  </footer>
+</body>
+</html>
